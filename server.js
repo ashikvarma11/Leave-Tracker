@@ -26,5 +26,5 @@ mongoose.connect(db, { useNewUrlParser: true }).then(ele => {
         console.log('Server Listening on ' + PORT)
     })
 }).catch(ele => {
-    console.log(ele)
+    console.error(ele)
 });
